@@ -7,7 +7,7 @@
   <arg name="custom_param_file"         default="$(find chris_turtlebot_navigation)/param/dummy.yaml"/>
   <arg name="map_file"                  default="$(optenv CHRIS_TURTLEBOT_MAP_FILE)"/>
 
-  <arg name="scan_topic"                default="hokuyo_node/scan"/>
+  <arg name="scan_topic"                default="ydlidar_node/scan"/>
 
   <!-- Map server -->
   <group if="$(arg include_map_server)" ns="$(arg robot_namespace)">

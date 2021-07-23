@@ -4,7 +4,7 @@
   <arg name="base_prefix"       default="mobile_base" />
 
   <arg name="custom_param_file" default="$(find chris_turtlebot_navigation)/param/dummy.yaml"/>
-  <arg name="scan_topic"        default="hokuyo_node/scan"/>
+  <arg name="scan_topic"        default="ydlidar_node/scan"/>
   <arg name="odom_frame"        default="odom"/>
   <arg name="base_frame"        default="base_footprint"/>
   <arg name="map_frame"         default="map"/><!--$(arg robot_namespace)_tf/map"/-->
